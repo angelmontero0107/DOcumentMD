@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Inicio
+title: AECS
 ---
 
 # Bienvenido a mi documentación 
