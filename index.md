@@ -3,13 +3,12 @@ layout: default
 title: Inicio
 ---
 
-# Bienvenido a mi documentación
+# Bienvenido a mi documentación 
 
-Este sitio contiene la documentación de mi proyecto. Aquí puedes encontrar información útil.
+Este sitio contiene la previsualización de la documentación para la página web de AECS.
 
 ## Contenido
 
-- [Guía de uso](FortiDoc.md)
-- [Referencia API](docs/api.md)
+- [FortiWEB](FortiDoc.md)
 - [Acerca del proyecto](about.md)
 
