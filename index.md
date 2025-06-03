@@ -10,5 +10,5 @@ Este sitio contiene la previsualización de la documentación para la página we
 ## Contenido
 
 - [FortiWEB](FortiDoc.md)
-- [Acerca del proyecto](about.md)
+- [Torneos](Cronograma_Torneos_Gamer.md)
 
