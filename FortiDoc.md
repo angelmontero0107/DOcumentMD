@@ -1,6 +1,6 @@
 ---
 layout: default
-title: AECS
+title: SDN + WAF
 ---
 # SDN + WAF - Primera Capa de Seguridad
 description: Guía de Configuración para equipos de seguridad en aplicaciones WEB de la marca Fortinet.
