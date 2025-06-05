@@ -2,7 +2,7 @@
 layout: default
 title: AECS
 ---
-#SDN + WAF - Primera Capa de Seguridad
+# SDN + WAF - Primera Capa de Seguridad
 description: Guía de Configuración para equipos de seguridad en aplicaciones WEB de la marca Fortinet.
 
 Esta guía presenta las configuraciones de seguridad que se deben realizar dentro de un equipo FortiWEB V7.6, orientadas a la seguridad mínima que deben tener las aplicaciones WEB dentro de un ambiente de producción.
