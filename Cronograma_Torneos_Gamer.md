@@ -1,3 +1,7 @@
+---
+layout: default
+title: Torneos
+---
 
 # 🎮 Cronograma Oficial – Torneos Gamer para Recaudación de Fondos
 
