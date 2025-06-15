@@ -9,6 +9,6 @@ Este sitio contiene la previsualización de la documentación para la página we
 
 ## Contenido
 
-- [FortiWEB](FortiDoc.md)
-- [Torneos](Cronograma_Torneos_Gamer.md)
+- [WAF+SDN](FortiDoc.md)
+- [FortiWEB](fortiweb.md)
 
