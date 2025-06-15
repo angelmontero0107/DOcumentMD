@@ -37,7 +37,7 @@ Una vez creada la cuenta, iniciamos sesión con nuestras credenciales y nos debe
 
 ![imagen 1.2](img/dashboard1.png)
 
-Luego nos dirigimos a la página oficial de Fortinet e iniciamos sesión con la cuenta que acabamos de crear. Una vez iniciamos sesión, nos debería redirigir a la página de soporte.
+Luego nos dirigimos a la página oficial de Fortinet e iniciamos sesión con la cuenta que acabamos de crear. Una vez iniciamos sesión, nos debería redirigir a la página de [soporte](https://support.fortinet.com/support/#/).
 
 ![imagen 1.3](img/soporte.png)
 
