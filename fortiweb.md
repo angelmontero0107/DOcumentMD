@@ -26,4 +26,4 @@ systemctl status docker
 ```
 Una vez instalado Docker, vamos a descargar la máquina virtual del Fortinet desde su web oficial.
 Para ello, vamos a necesitar crear una cuenta en la pagina de [FortiCloud](https://www.forticloud.com/#/)
-![imagen 1.0](/img/forticloud.png)
+![imagen 1.0](img/forticloud.png)
