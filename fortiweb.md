@@ -14,8 +14,8 @@ Comenzamos instalando todas las dependencias de Docker que vayamos a utilizar, e
 
 Para ello, vamos a utilizar los siguientes comandos.
 
-'''
+```
 sudo dnf install docker-cli containerd
 sudo dnf install docker-compose
 sudo dnf install docker-switch
-'''
+```
