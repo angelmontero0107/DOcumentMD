@@ -41,4 +41,11 @@ Luego nos dirigimos a la página oficial de Fortinet e iniciamos sesión con la 
 
 ![imagen 1.3](img/soporte.png)
 
+Dentro del dashboard buscamos la sección de Downloads y seleccionamos la subsección de máquinas virtuales VM.
+Una vez dentro, vamos a seleccionar la VM del producto que queremos bajar.  En este caso, seleccionamos la opción de FortiGate, luego la plataforma sobre la que vamos a montar la máquina virtual, seleccionamosDocker y desplegamos la ventana de versiones para descargar la más reciente 7.6.4.
+
+![imagen 1.4](img/version.png)
+
+Vamos a seleccionar la imagen "**New deployment of FortiWeb
+FWB_DOCKER-v7.6.4.F-build1062-FORTINET.out.docker.zip (325.23 MB)**" y esperamos que se descargue.
 
