@@ -41,11 +41,36 @@ Luego nos dirigimos a la página oficial de Fortinet e iniciamos sesión con la 
 
 ![imagen 1.3](img/soporte.png)
 
-Dentro del dashboard buscamos la sección de Downloads y seleccionamos la subsección de máquinas virtuales VM.
-Una vez dentro, vamos a seleccionar la VM del producto que queremos bajar.  En este caso, seleccionamos la opción de FortiGate, luego la plataforma sobre la que vamos a montar la máquina virtual, seleccionamosDocker y desplegamos la ventana de versiones para descargar la más reciente 7.6.4.
+Dentro del dashboard buscamos la sección de Downloads y seleccionamos la subsección de máquinas virtuales VM, una vez dentro, vamos a seleccionar la VM del producto que queremos bajar.
+En este caso, seleccionamos la opción de FortiGate, luego la plataforma sobre la que vamos a montar la máquina virtual, seleccionamos Docker y desplegamos la ventana de versiones para descargar la más reciente7.6.4.
 
 ![imagen 1.4](img/version.png)
 
 Vamos a seleccionar la imagen "**New deployment of FortiWeb
 FWB_DOCKER-v7.6.4.F-build1062-FORTINET.out.docker.zip (325.23 MB)**" y esperamos que se descargue.
+
+![imagen 1.5](img/descarga.png)
+
+Una vez descargada la imagen de la máquina virtual, vamos a comenzar con el despliegue del contenedor. Para ello, primero debemos descomprimir el archivo .out.docker.zip con el siguiente comando:
+
+```
+unzip FWB_DOCKER-v7.6.4.F-build1062-FORTINET.out.docker.zip
+```
+Luego de descomprimir el archivo con la herramienta **unzip**, nos debería quedar un directorio llamado "**image-docker-64**".
+Ahora vamos a acceder a este directorio y vamos a crear la imagen para el contenedor utilizando Docker, donde  el parámetro -t define el nombre de la imagen: 
+
+```
+sudo docker build -t fortiweb-image .
+```
+Nos dirigimos al directorio **script/** donde encontraremos el script de despliegue del contenedor. Para ejecutarlo, debemos indicarle una serie de parámetros que va a requerir el contenedor.
+Estos parametros son:
+* -i = Específica el nombre de la imagen docker. 
+* -n = Específica el nombre del contenedor.
+* -e = Asigna una contraseña para la administración del contenedor de FortiWEB por CLI o por GUI.
+* -g = Indica el puerto de administración de la máquina FortiWEB por la interfaz GUI.
+* -m = Establece un valor total para la memoria del contenedor docker en MB.
+
+```
+sudo ./docker-fwb.sh -i fortiweb-image -n fortiweb-docker -e UTP2025 -g 5000 -m 4096
+```
 
