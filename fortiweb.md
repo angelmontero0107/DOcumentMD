@@ -83,3 +83,9 @@ CONTAINER ID   IMAGE            COMMAND              CREATED        STATUS      
 container-ID   fortiweb-image   "/bin/docker_init"   fecha de creación   Up 24 hours   0.0.0.0:80->80/tcp, [::]:80->80/tcp, 0.0.0.0:443->443/tcp, [::]:443->443/tcp, 0.0.0.0:5000->8/tcp, [::]:5000->8/tcp, 0.0.0.0:90->9/tcp, [::]:90->9/tcp, 0.0.0.0:8022->22/tcp, [::]:8022->22/tcp, 0.0.0.0:8443->43/tcp, [::]:8443->43/tcp   fortiweb-docker
 
 
+Para acceder a la interfaz GUI del contenedor del FortiWEB, vamos a escribir en el navegador la siguiente ruta:
+```
+https://localhost:8443
+```
+Tambien puede remplazar "localhost" por la IP de su maquina servidor.
+
