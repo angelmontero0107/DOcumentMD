@@ -84,13 +84,13 @@ container-ID   fortiweb-image   "/bin/docker_init"   fecha de creación   Up 24 
 
 
 Para acceder a la interfaz GUI del contenedor del FortiWEB, vamos a escribir en el navegador la siguiente ruta:
-```
+```bash
 https://localhost:8443
 ```
 Tambien puede remplazar "localhost" por la IP de su maquina servidor.
 
 ![imagen 2.0](img/login.png)
 
-Las credenciales de acceso a la máquina son: el usuario es **admin** y la contraseña es la que se le asignó al contenedor.
+Las credenciales de acceso a la máquina son: el usuario **admin** y la contraseña es la que se le asignó al contenedor.
 
 ![imagen 2.1](img/admin.png)
