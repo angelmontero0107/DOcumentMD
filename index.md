@@ -11,4 +11,4 @@ Este sitio contiene la previsualización de la documentación para la página we
 
 - [WAF+SDN](FortiDoc.md)
 - [FortiWEB](fortiweb.md)
-
+- [Wazuh](wazuh)
